@@ -1,0 +1,71 @@
+.contact{
+    background-image: url('./Assets/Home/Background.jpg');
+}
+h1.hire__text {
+    font-size: 60px;
+}
+p.hire__text{
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(29,29,36,.75);
+    font-weight: 400;
+}
+input.contact{
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    border: 2px solid rgba(0,0,0,.1);
+    border-radius: 5px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    height: 50px;
+    line-height: 46px;
+    margin: 20px 0px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    letter-spacing: .1px;
+    background: none;
+    border: 2px solid rgba(223, 219, 219, 0.596);
+    background-color: aquamarine;
+}
+
+.contact__img{
+    border-radius: 10px;
+    width: 100%;
+    height: 475px;
+    overflow: hidden;
+}
+textarea#message{
+    height: 120px;
+    background: none;
+    padding: 0 20px;
+    width: 100%;
+    line-height: 46px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    letter-spacing: .1px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    background-color: aquamarine;
+}
+.contact__box{
+    margin-top: -22px;
+}
+button.btn.contact.pointer {
+    margin: 20px 0px;
+    cursor: pointer;
+    
+}
+button.btn.contact:hover{
+    background-color: aliceblue;
+}
+span{
+    color: rgba(3, 0, 0, 0.62);
+    font-weight: bold;
+}
+@media only screen and (max-width: 810px){
+    .contact__img{
+        width: 100%;
+        height: 425px;
+    }
+}
