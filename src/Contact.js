@@ -20,7 +20,7 @@ function Contact() {
           }, (error) => {
               console.log(error.text);
           });
-          e.target.rest()
+          e.target.reset()
       };
 
     return (
