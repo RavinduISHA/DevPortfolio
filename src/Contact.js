@@ -13,7 +13,7 @@ function Contact() {
     const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs.sendForm('service_ldzbx45', 'template_674vg7e', form.current, 'KgJWy3dN2iclHQyNO')
+        emailjs.sendForm('service_pci3h9i', 'template_3n7vqd5', form.current, 'KgJWy3dN2iclHQyNO')
           .then((result) => {
               console.log(result.text);
               setDone(true);
@@ -36,7 +36,7 @@ function Contact() {
                         </div>
                         <form className="input" ref={form} onSubmit={sendEmail} >
                            <input type="text" name="name" className="contact name" placeholder="Your name *" required/>
-                           <input type="text" name="email" className="contact email" placeholder="Your Email *" required/>
+                           <input type="email" name="email" className="contact email" placeholder="Your Email *" required/>
                            <input type="text" name="subject" className="contact subject" placeholder="Write a Subject" />
                            <textarea name="message" id="message" placeholder="Write Your message *" required></textarea>
                            <button className="btn contact pointer" type="submit" value='send'>Submit</button><span>{done && "Thanks for contacting me"}</span>

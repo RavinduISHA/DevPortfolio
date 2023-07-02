@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import aboutImg from "./Assets/Home/about.jpg";
+import aboutImg from "./Assets/Home/MyUpdate.png";
 function About() {
   //  Up To Top Btn
     window.addEventListener("scroll", function(){
@@ -17,11 +17,12 @@ function About() {
           <div className="col__2">
             <h1 className="about__heading">About Me</h1>
             <div className="about__meta">
-              <p className="about__text p__color">
-              I am diplomate at Institute of Technology University of Moratuwa
-              (NDT). I am self-motivated and enthusiastic individual to work in any
-              situation. I'm interested in the software development field and seeking
-              exciting opportunities related to the same.
+              <p className="about__text p__color justify">
+              I am self-motivated and enthusiastic person to work in any situation. I'm passionate about creating cutting-edge web applications that are both user-friendly and visually appealing. With a strong ability in front-end and back-end development. My skillset includes expertise in 𝐉𝐚𝐯𝐚𝐒𝐜𝐫𝐢𝐩𝐭, 𝐑𝐞𝐚𝐜𝐭.𝐣𝐬, 𝐍𝐨𝐝𝐞.𝐣𝐬, 𝐚𝐧𝐝 𝐏𝐲𝐭𝐡𝐨𝐧, as well as a deep understanding of various databases.
+              <br/><br/>
+              I am a problem solver by nature and enjoy working in a fast-paced, dynamic environment. I am always eager to learn new technologies and stay up-to-date with industry trends to bring the best solutions to clients.
+
+              I am now looking to take on new challenges and continue to grow as a developer.
 
               </p>
               <p className="about__text p__color">
@@ -41,7 +42,7 @@ function About() {
       </div>
       {/* UP TO TOP BTN */}
       <div className="up__to__top__btn">
-        {/* // eslint-disable-next-line */ }
+        {/* eslint-disable-next-line */}
         <a href="#" className="bottom__to__top">
         <svg
           xmlns="http://www.w3.org/2000/svg"

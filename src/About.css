@@ -4,7 +4,7 @@
 img.about__img{
     border-radius: 10px;
     width: 100%;
-    height: 600px
+    height: 600px;
 }
 h1.about__heading{
     margin-bottom: 10px;
@@ -45,6 +45,9 @@ a.bottom__to__top.active{
 @media only screen and (max-width: 1024px){
     .p__color{
         font-size: 15px!important;
+    }
+    img.about__img {
+        height: 400px;
     }
 }
 @media only screen and (max-width: 425px){

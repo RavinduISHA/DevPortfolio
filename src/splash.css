@@ -1,0 +1,22 @@
+.splash {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.splash img {
+  width: 200px; /* Adjust the width and height as needed */
+  height: 200px;
+  animation: spin 2s infinite linear; /* Add animation to the image */
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

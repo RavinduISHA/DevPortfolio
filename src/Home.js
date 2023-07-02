@@ -1,5 +1,8 @@
 import React, {useState} from "react";
 import "./Home.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import Typical from "react-typical";
 
 
 function Home() {
@@ -9,7 +12,11 @@ function Home() {
     header.classList.toggle("active", window.scrollY > 0);
   });
   // Toogle M
-   const [show, setShow] = useState(true);
+   const [show, setShow] = useState(false);
+
+   const handleRouteClick = () => {
+    setShow(false); // Set show state to false when a route is clicked
+   };
   return (
     <div className="home" id="Home">
         <div className="header d__flex align__items__center pxy__30">
@@ -52,18 +59,18 @@ function Home() {
           <div className="sideNavbar">
               <ul className="sidebar d__flex">
               <li className="sideNavbar">
-              <a href="#Home">Home</a>
+              <a href="#Home" onClick={handleRouteClick}>Home</a>
             </li>
             <li className="sideNavbar">
-              <a href="#About">About</a>
+              <a href="#About" onClick={handleRouteClick}>About</a>
             </li>
             <li className="sideNavbar">
-              <a href="#Services">Services</a>
+              <a href="#Services" onClick={handleRouteClick}>Services</a>
             </li>
-            <li className="sideNavbar">
+            <li className="sideNavbar" onClick={handleRouteClick}>
               <a href="#Projects">Projects</a>
             </li>
-            <li className="sideNavbar">
+            <li className="sideNavbar" onClick={handleRouteClick}>
               <a href="#Contact">Contact</a>
             </li>
               </ul>
@@ -79,13 +86,13 @@ function Home() {
               <div className='profile-details-name'>
                         <span className='p-text'>Hello, my name is 
                         <span className='h-text'>Ravindu Umayanga</span>
-                        <span >{" "}</span>
                         </span>
                     </div>
+                    <span >{" "}</span>
                     <div className='profile-deatils-role'>
                         <span className='p-text'>{" "}
-                            <h1>
-                               {/*  {" "}<Typical
+                            <h1 className='typical-text'>
+                                {" "}<Typical
                                 loop={Infinity}
                                 steps={[
                                     "Ethusiastic Dev 🛑",
@@ -99,42 +106,33 @@ function Home() {
                                     "Programmer 🤓",
                                     1000,
                                 ]}
-                                />*/}
+                                />
                             </h1>
                         </span>
                     </div>
-                    
-                    
-              </div>
-                  <div className='profile-picture'>
-                        <div className='profile-picture-b'>
-
-                        </div>
-                  </div>
-        </div>
-                  <div className='Profile-option'>
-                        
-                        <a href='Resume.pdf' download='Ravindu Profile.pdf'>
-                            <button className='btn highlighted-btn'>Get Resume</button>
+                    <div className='colz'>
+                      <div>
+                        <a href="https://www.facebook.com/profile.php?id=100005207028337">
+                          <FontAwesomeIcon icon={faFacebook} className="colz-icon" />
                         </a>
+                        <a href="https://www.linkedin.com/in/ravindu-umayanga-1a7424204/">
+                          <FontAwesomeIcon icon={faLinkedin} className="colz-icon2"/>
+                        </a>
+                      </div>
+                    </div>
+              </div>
+                <div className='profile-picture'>
+                  <div className='profile-picture-b'>
                   </div>
-                  <div className='colz'>
-                            <div className='colz-icon'>
-                                <a href='#'>
-                                <i class="fa-brands fa-facebook"></i>
-                                </a>
-                                <a href='#'>
-                                    <i className='fa fa-linkedin'></i>
-                                </a>
-                                <a href='#'>
-                                    <i className='fa fa-twitter'></i>
-                                </a>
-                                <a href='#'>
-                                    <i className='fa fa-google w3-hover-opacity'></i>
-                                </a>
-                            </div>
-                  </div> 
-      
+                </div>
+                
+        </div>
+        <div className='Profile-option'>
+              
+              <a href='Resume.pdf' download='Ravindu Profile.pdf'>
+                  <button className='btn highlighted-btn'>Get Resume</button>
+              </a>
+        </div>   
     </div>
   );
 }

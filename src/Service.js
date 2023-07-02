@@ -11,7 +11,7 @@ function Service() {
           I have knowledge among the web development,
         </p>
         <p className="heading p__color">
-          app development and web design fields.
+          and web design fields.
         </p>
       </div>
 
@@ -40,10 +40,10 @@ function Service() {
               <div className="service__meta">
                 <h1 className="service__text">Web Development</h1>
                 <p className="p service__text p__color">
-                I have knowledge about the Html/Css/Js, 
+                I have knowledge about the HTML, CSS, JS and
+                ReactJs,vueJs,NodeJs libraries and frameworks.
                 </p>
                 <p className="p service__text p__color">
-                Reactjs,Laravel frameworks.
                 </p>
                 <p className="p service__text p__color"></p>
               </div>
@@ -105,11 +105,7 @@ function Service() {
               <div className="service__meta">
                 <h1 className="service__text">Graphic Design</h1>
                 <p className="p service__text p__color">
-                  I worked with illustrator and adobe XD softwares
-                </p>
-                <p className="p service__text p__color">
-                in my studying period.
-                
+                  I have konwledge about the illustrator, figma and adobe XD softwares.
                 </p>
               </div>
             </div>

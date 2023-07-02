@@ -6,7 +6,7 @@
     justify-content: center;
     min-height: fit-content;
     background-image: url('../src/Assets/Home/Background.jpg');
-    padding: 30px 0;
+    padding: 35px 0;
     height: 100%;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -141,13 +141,13 @@ li.sideNavbar{
     margin: 0 0 0 50px;
 }
 .btn.highlighted-btn{
-    height: 1%;
-    width: 250px;
-    padding: 32px 0;
+    height: 0.5%;
+    width: 220px;
+    padding: 25px 0;
 }
 .highlighted-btn:hover{
     margin: 0 0 0 30px;
-    background-color: rgb(230, 187, 187);
+    background-color: rgb(137, 128, 192);
     color: #111;
 }
 
@@ -194,6 +194,21 @@ li.sideNavbar{
 }
 .icons ion-icon:hover{
     color: #5984d4;
+}
+.colz-icon{
+    color: #13161c;
+    height: 25px;
+    margin-left: 145px;
+}
+.colz-icon2{
+    color: #13161c;
+    height: 25px;
+    margin-left: 25px;
+}
+.typical-text{
+    margin-left: 45px;
+    margin-bottom: 10px;
+    color: #000000;
 }
 
 /* RESPONSIVE */
@@ -282,7 +297,7 @@ h4.home__text {
     }
     .profile-parent{
         flex-direction: column-reverse;
-        margin: 0 0 0 0;
+        margin: 70px 0 0 0;
     }
     .profile-options{
         display: flex;
@@ -299,16 +314,19 @@ h4.home__text {
         text-align: center;
     }
     .profile-details-name{
-        text-align: left;
+        margin-left: 35px;
     }
     .Profile-option{
         margin-left: 85px;
     }
-    .icons{
-        
-        display: flex;
+    .colz-icon{
         justify-content: center;
-        padding: 55px;
-        
+        margin-bottom: 20px;
+    }
+    .colz-icon2{
+        margin-bottom: 20px;
+    }
+    .btn.highlighted-btn{
+        padding: 30px 0;
     }
 }

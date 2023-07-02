@@ -10,7 +10,7 @@ function Footer() {
         className="copyright"
         style={{ color: "black", fontSize: "14px", opacity: "0.75" }}
       >
-        Copyright © 2022 Ravindu_Umayanga All Rights Reserved.
+        Copyright © 2023 Ravindu_Umayanga All Rights Reserved.
       </span>
     </div>
   );
