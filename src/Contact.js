@@ -8,7 +8,8 @@ import emailjs from '@emailjs/browser';
 function Contact() {
     const form = useRef();
 
-    const [done, setDone] = useState(false)
+    const [isSuccess, setIsSuccess] = useState(false)
+    const [isError, setIsError] = useState(false)
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -16,9 +17,10 @@ function Contact() {
         emailjs.sendForm('service_pci3h9i', 'template_3n7vqd5', form.current, 'KgJWy3dN2iclHQyNO')
           .then((result) => {
               console.log(result.text);
-              setDone(true);
+              setIsSuccess(true);
           }, (error) => {
               console.log(error.text);
+              setIsError(true)
           });
           e.target.reset()
       };
@@ -29,23 +31,24 @@ function Contact() {
                 <div className="col__2">
                     <div className="contact__box">
                         <div className="contact__meta">
-                            
                             <h1 className="hire__text">Get In Touch</h1>
                             <p className="hire__text white">Contact me via phone:<strong> +94 77 435 4216</strong></p>
                            <p className="hire__text white">Email : <strong> rumayanga51@gmail.com</strong></p>
                         </div>
+                        
                         <form className="input" ref={form} onSubmit={sendEmail} >
                            <input type="text" name="name" className="contact name" placeholder="Your name *" required/>
                            <input type="email" name="email" className="contact email" placeholder="Your Email *" required/>
                            <input type="text" name="subject" className="contact subject" placeholder="Write a Subject" />
                            <textarea name="message" id="message" placeholder="Write Your message *" required></textarea>
-                           <button className="btn contact pointer" type="submit" value='send'>Submit</button><span>{done && "Thanks for contacting me"}</span>
-                           
+                           <button className="btn contact pointer" type="submit" value='send'>Submit</button>
+                          {isSuccess && <span className="success-message">Thanks for contacting me!</span>}
+                          {isError && <span className="error-message">An error occurred. Please try again.</span>}
                         </form>
                     </div>
                 </div>
                 <div className="col__2">
-                    <img src={contactImg} alt="" className="contact__img" />
+                  <img src={contactImg} alt="" className="contact__img" />
                 </div>
             </div>
         </div>

@@ -129,7 +129,7 @@ function Home() {
         </div>
         <div className='Profile-option'>
               
-              <a href='Resume.pdf' download='Ravindu Profile.pdf'>
+              <a href='Resume.pdf' download='Resume - Ravindu Umayanga.pdf'>
                   <button className='btn highlighted-btn'>Get Resume</button>
               </a>
         </div>   
