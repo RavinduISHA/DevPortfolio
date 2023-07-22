@@ -14,7 +14,7 @@ function Project() {
           There are latests projects, 
         </p>
         <p className="heading p__color">
-            what i'm done in my studying period.
+            what i'm done in my academic period.
         </p>
       </div>
        <div className="container">
@@ -46,9 +46,9 @@ function Project() {
                          <div className="mask__effect"></div>
                      </div>
                      <div className="project__meta absolute">
-                     <h4 className="project__text"><b> Simple MERN</b></h4>
-                     <h4 className="project__text"><b>CRUD Apllication</b></h4>
-                     <a href="https://github.com/Ravindu98-bot/MERN_CRUD-App/tree/master" className="project__btn">View Details</a>
+                     <h4 className="project__text"><b> Stu. Details</b></h4>
+                     <h4 className="project__text"><b>Apllication</b></h4>
+                     <a href="https://github.com/RavinduISHA/Student-Details-App" className="project__btn">View Details</a>
                      </div>
                  </div>
              </div>

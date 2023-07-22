@@ -118,6 +118,9 @@ function Home() {
                         <a href="https://www.linkedin.com/in/ravindu-umayanga-1a7424204/">
                           <FontAwesomeIcon icon={faLinkedin} className="colz-icon2"/>
                         </a>
+                        {/* <a href="rumayanga51@gmail.com">
+                          <FontAwesomeIcon icon={faGoogle} className="colz-icon2"/>
+                        </a> */}
                       </div>
                     </div>
               </div>

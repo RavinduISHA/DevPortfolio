@@ -263,6 +263,32 @@ h4.home__text {
     font-size: 45px;
 }
 
+@media only screen and (max-width: 375px) {
+    /* Adjust the styles for iPhone SE size here */
+    .profile-picture-b{
+        height: 150px;
+        width: 150px;
+        margin-bottom: 250px;
+    }
+    .profile-parent {
+      margin: 50px 0 0 0;
+    }
+    .profile-options {
+      flex-direction: column;
+    }
+    .profile-details-name {
+      margin-left: 0;
+      margin-top: -200px;
+    }
+    .Profile-option {
+      margin-left: 0;
+    }
+    .btn.highlighted-btn{
+        max-height: 50px;
+        max-width: 200px;
+    }
+  }
+
 }
 @media only screen and (max-width: 1110px){
     .profile-picture{
