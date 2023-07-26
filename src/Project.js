@@ -1,9 +1,10 @@
 import React from "react";
 import "./Project.css";
-import Project1 from './img/portfolio-2.jpg';
+import Project1 from './img/imagex.jpg';
 import Project2 from './img/portfolio-6.jpg';
 import Project3 from './img/portfolio-3.jpg';
 import Project4 from './img/medi.jpg';
+import Project5 from './img/portfolio-4.jpg'
 
 function Project() {
   return (
@@ -31,7 +32,7 @@ function Project() {
                      <div className="project__meta absolute">
                      <h4 className="project__text"><b>Simple Car</b></h4>
                      <h4 className="project__text"><b>Sale Application</b></h4>
-                     <a href="https://github.com/Ravindu98-bot/Carsale-App" className="project__btn">View Details</a>
+                     <a href="https://github.com/RavinduISHA/Carsale-App" className="project__btn">View Details</a>
                      </div>
                  </div>
              </div>
@@ -68,7 +69,7 @@ function Project() {
                      <div className="project__meta absolute">
                      <h4 className="project__text">Medical center</h4>
                      <h4 className="project__text">Smart App</h4>
-                     <a href="https://github.com/Ravindu98-bot/Hospital-Management-System" className="project__btn">View Details</a>
+                     <a href="https://github.com/RavinduISHA/Hospital-Management-System" className="project__btn">View Details</a>
                      </div>
                  </div>
              </div>
@@ -84,7 +85,22 @@ function Project() {
                      </div>
                      <div className="project__meta absolute">
                      <h4 className="project__text">Dev Portfolio</h4>
-                     <a href="https://github.com/Ravindu98-bot/Developer_Portfolio" className="project__btn">View Details</a>
+                     <a href="https://github.com/RavinduISHA/DevPortfolio" className="project__btn">View Details</a>
+                     </div>
+                 </div>
+             </div>
+
+             <div className="col__3">
+                 <div className="project__box pointer relative">
+                     <div className="project__box__img pointer relative">
+                         <div className="project__img__box">
+                             <img src={Project5} alt="" className="project__img" />
+                         </div>
+                         <div className="mask__effect"></div>
+                     </div>
+                     <div className="project__meta absolute">
+                     <h4 className="project__text">Memories Application</h4>
+                     <a href="https://github.com/RavinduISHA/Memories" className="project__btn">View Details</a>
                      </div>
                  </div>
              </div>

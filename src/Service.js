@@ -8,7 +8,7 @@ function Service() {
       <div className="heading">
         <h1 className="heading">My Awesome Service</h1>
         <p className="heading p__color">
-          I have knowledge among the web development,
+          I have knowledge among the Software/web development,
         </p>
         <p className="heading p__color">
           and web design fields.
@@ -38,10 +38,9 @@ function Service() {
                 </svg>
               </div>
               <div className="service__meta">
-                <h1 className="service__text">Web Development</h1>
+                <h1 className="service__text">Software Development</h1>
                 <p className="p service__text p__color">
-                I have knowledge about the HTML, CSS, JS and
-                ReactJs,vueJs,NodeJs libraries and frameworks.
+                I know HTML, CSS, JS and ReactJs, VueJs, NodeJs libraries and frameworks, and MERN Stack.
                 </p>
                 <p className="p service__text p__color">
                 </p>
@@ -105,7 +104,7 @@ function Service() {
               <div className="service__meta">
                 <h1 className="service__text">Graphic Design</h1>
                 <p className="p service__text p__color">
-                  I have konwledge about the illustrator, figma and adobe XD softwares.
+                I know about the illustrator, Figma, and Adobe XD software. Also, I can create user-friendly interfaces.
                 </p>
               </div>
             </div>
