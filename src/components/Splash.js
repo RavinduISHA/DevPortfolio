@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import splashImage from "./Assets/Home/animates.gif";
+import splashImage from "../Assets/Home/animates.gif";
 import './splash.css';
 
 function Splash({ hideSplash }) {

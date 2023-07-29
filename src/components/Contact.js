@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Contact.css';
-import contactImg from "./Assets/Home/prof.jpg"
+import contactImg from "../Assets/Home/prof.jpg"
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 

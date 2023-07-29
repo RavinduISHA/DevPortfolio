@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import aboutImg from "./Assets/Home/MyUpdate.png";
+import aboutImg from '../Assets/Home/MyUpdate.png';
 function About() {
   //  Up To Top Btn
     window.addEventListener("scroll", function(){

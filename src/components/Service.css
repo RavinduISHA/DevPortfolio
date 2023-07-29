@@ -1,5 +1,5 @@
 .service{
-    background-image: url('./Assets/Home/Background.jpg');
+    background-image: url('../Assets/Home/Background.jpg');
 }
 h1.heading {
     font-size: 60px;

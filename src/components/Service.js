@@ -40,7 +40,10 @@ function Service() {
               <div className="service__meta">
                 <h1 className="service__text">Software Development</h1>
                 <p className="p service__text p__color">
-                I know HTML, CSS, JS and ReactJs, VueJs, NodeJs libraries and frameworks, and MERN Stack.
+                Skills: 
+                HTML, CSS, JS,
+                ReactJs, VueJs, NodeJs <br/>
+                paython,Java
                 </p>
                 <p className="p service__text p__color">
                 </p>
@@ -104,7 +107,9 @@ function Service() {
               <div className="service__meta">
                 <h1 className="service__text">Graphic Design</h1>
                 <p className="p service__text p__color">
-                I know about the illustrator, Figma, and Adobe XD software. Also, I can create user-friendly interfaces.
+                Skills: 
+                UI/UX <br/>
+                illustrator, Figma, and Adobe XD software
                 </p>
               </div>
             </div>

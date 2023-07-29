@@ -5,7 +5,7 @@
     text-align: left;
     justify-content: center;
     min-height: fit-content;
-    background-image: url('../src/Assets/Home/Background.jpg');
+    background-image: url('../Assets/Home/Background.jpg');
     padding: 35px 0;
     height: 100%;
     font-family: 'Ubuntu', sans-serif;
@@ -167,7 +167,7 @@ li.sideNavbar{
 .profile-picture-b{
     height: 92%;
     width: 92%;
-    background-image: url("../src/Assets/Home/profile.jpg");
+    background-image: url("../Assets/Home/profile.jpg");
     background-size: cover;
     border-radius: 50%;
     background-repeat: no-repeat;
