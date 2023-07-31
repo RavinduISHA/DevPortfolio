@@ -20,60 +20,6 @@ function Project() {
       </div>
        <div className="container">
            <div className="row">
-             
-             <div className="col__3">
-                 <div className="project__box pointer relative">
-                     <div className="project__box__img pointer relative">
-                         <div className="project__img__box">
-                             <img src={Project1} alt="" className="project__img" />
-                         </div>
-                         <div className="mask__effect"></div>
-                     </div>
-                     <div className="project__meta absolute">
-                     <h4 className="project__text"><b>Simple Car</b></h4>
-                     <h4 className="project__text"><b>Sale Application</b></h4>
-                     <a href="https://github.com/RavinduISHA/Carsale-App" className="project__btn">View Details</a>
-                     </div>
-                 </div>
-             </div>
-
-
-             <div className="col__3">
-                 <div className="project__box pointer relative">
-                     <div className="project__box__img pointer relative">
-                         <div className="project__img__box">
-                             <img src={Project2} alt="" className="project__img" />
-                         </div>
-                         <div className="mask__effect"></div>
-                     </div>
-                     <div className="project__meta absolute">
-                     <h4 className="project__text"><b> Stu. Details</b></h4>
-                     <h4 className="project__text"><b>Apllication</b></h4>
-                     <a href="https://github.com/RavinduISHA/Student-Details-App" className="project__btn">View Details</a>
-                     </div>
-                 </div>
-             </div>
-
-
-             
-
-
-             <div className="col__3">
-                 <div className="project__box pointer relative">
-                     <div className="project__box__img pointer relative">
-                         <div className="project__img__box">
-                             <img src={Project4} alt="" className="project__img" />
-                         </div>
-                         <div className="mask__effect"></div>
-                     </div>
-                     <div className="project__meta absolute">
-                     <h4 className="project__text">Medical center</h4>
-                     <h4 className="project__text">Smart App</h4>
-                     <a href="https://github.com/RavinduISHA/Hospital-Management-System" className="project__btn">View Details</a>
-                     </div>
-                 </div>
-             </div>
-
 
              <div className="col__3">
                  <div className="project__box pointer relative">
@@ -104,7 +50,54 @@ function Project() {
                      </div>
                  </div>
              </div>
-             
+
+             <div className="col__3">
+                 <div className="project__box pointer relative">
+                     <div className="project__box__img pointer relative">
+                         <div className="project__img__box">
+                             <img src={Project2} alt="" className="project__img" />
+                         </div>
+                         <div className="mask__effect"></div>
+                     </div>
+                     <div className="project__meta absolute">
+                     <h4 className="project__text"><b> Stu. Details</b></h4>
+                     <h4 className="project__text"><b>Apllication</b></h4>
+                     <a href="https://github.com/RavinduISHA/Student-Details-App" className="project__btn">View Details</a>
+                     </div>
+                 </div>
+             </div>
+
+             <div className="col__3">
+                 <div className="project__box pointer relative">
+                     <div className="project__box__img pointer relative">
+                         <div className="project__img__box">
+                             <img src={Project1} alt="" className="project__img" />
+                         </div>
+                         <div className="mask__effect"></div>
+                     </div>
+                     <div className="project__meta absolute">
+                     <h4 className="project__text"><b>Simple Car</b></h4>
+                     <h4 className="project__text"><b>Sale Application</b></h4>
+                     <a href="https://github.com/RavinduISHA/Carsale-App" className="project__btn">View Details</a>
+                     </div>
+                 </div>
+             </div>
+
+             <div className="col__3">
+                 <div className="project__box pointer relative">
+                     <div className="project__box__img pointer relative">
+                         <div className="project__img__box">
+                             <img src={Project4} alt="" className="project__img" />
+                         </div>
+                         <div className="mask__effect"></div>
+                     </div>
+                     <div className="project__meta absolute">
+                     <h4 className="project__text">Medical center</h4>
+                     <h4 className="project__text">Smart App</h4>
+                     <a href="https://github.com/RavinduISHA/Hospital-Management-System" className="project__btn">View Details</a>
+                     </div>
+                 </div>
+             </div>
              {/*<div className="view__more__btn d__flex align__items__center justify__content__center pxy__30">
              <button className="view__more pointer btn">View more</button>
   </div>*/}

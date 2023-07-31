@@ -6,7 +6,7 @@ function Splash({ hideSplash }) {
   useEffect(() => {
     const timer = setTimeout(() => {
       hideSplash();
-    }, 4500); // Hide the splash screen after 4.5 seconds
+    }, 5000); // Hide the splash screen after 5 seconds
 
     return () => clearTimeout(timer);
   }, [hideSplash]);

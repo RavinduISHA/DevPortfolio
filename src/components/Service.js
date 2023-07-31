@@ -43,7 +43,7 @@ function Service() {
                 Skills: 
                 HTML, CSS, JS,
                 ReactJs, VueJs, NodeJs <br/>
-                paython,Java
+                python,Java
                 </p>
                 <p className="p service__text p__color">
                 </p>
