@@ -41,9 +41,9 @@ function Service() {
                 <h1 className="service__text">Software Development</h1>
                 <p className="p service__text p__color">
                 Skills: 
-                HTML, CSS, JS,
-                ReactJs, VueJs, NodeJs <br/>
-                python,Java
+                HTML, CSS, JS, Bootstrap
+                ReactJs, VueJs, NodeJs,
+                python
                 </p>
                 <p className="p service__text p__color">
                 </p>
@@ -105,7 +105,7 @@ function Service() {
                 </svg>
               </div>
               <div className="service__meta">
-                <h1 className="service__text">Graphic Design</h1>
+                <h1 className="service__text">Web Design</h1>
                 <p className="p service__text p__color">
                 Skills: 
                 UI/UX <br/>

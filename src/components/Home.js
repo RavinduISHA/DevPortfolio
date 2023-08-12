@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import "./Home.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import Typical from "react-typical";
 
 
@@ -81,54 +81,53 @@ function Home() {
         <div className='profile-parent'>
 
           <div className='profile-detail'>
-            
-            
-              <div className='profile-details-name'>
-                        <span className='p-text'>Hello, my name is 
-                        <span className='h-text'>Ravindu Umayanga</span>
-                        </span>
-                    </div>
-                    <span >{" "}</span>
-                    <div className='profile-deatils-role'>
-                        <span className='p-text'>{" "}
-                            <h1 className='typical-text'>
-                                {" "}<Typical
-                                loop={Infinity}
-                                steps={[
-                                    "Ethusiastic Dev 🛑",
-                                    1000,
-                                    "Full Stack Developer 🌐",
-                                    1000,
-                                    "Self Learning Passionate 💻",
-                                    1000,
-                                    "MERN Stack Dev 😎",
-                                    1000,
-                                    "Programmer 🤓",
-                                    1000,
-                                ]}
-                                />
-                            </h1>
-                        </span>
-                    </div>
-                    <div className='colz'>
-                      <div>
-                        <a href="https://www.facebook.com/profile.php?id=100005207028337">
-                          <FontAwesomeIcon icon={faFacebook} className="colz-icon" />
-                        </a>
-                        <a href="https://www.linkedin.com/in/ravindu-umayanga-1a7424204/">
-                          <FontAwesomeIcon icon={faLinkedin} className="colz-icon2"/>
-                        </a>
-                        {/* <a href="rumayanga51@gmail.com">
-                          <FontAwesomeIcon icon={faGoogle} className="colz-icon2"/>
-                        </a> */}
-                      </div>
-                    </div>
+            <div className='profile-details-name'>
+              <span className='p-text'>Hello, my name is 
+              <span className='h-text'>Ravindu Umayanga</span>
+              </span>
+            </div>
+            <span >{" "}</span>
+            <div className='profile-deatils-role'>
+                <span className='p-text'>{" "}
+                    <h1 className='typical-text'>
+                        {" "}<Typical
+                        loop={Infinity}
+                        steps={[
+                            "Ethusiastic Dev 🛑",
+                            1500,
+                            "Full Stack Developer 🌐",
+                            1500,
+                            "Self Learning Passionate 💻",
+                            1500,
+                            "MERN Stack Dev 😎",
+                            1500,
+                            "Programmer 🤓",
+                            1500,
+                        ]}
+                        />
+                    </h1>
+                </span>
+            </div>
+
+            <div className='colz'>
+              <div>
+                <a href="https://www.facebook.com/profile.php?id=100005207028337">
+                  <FontAwesomeIcon icon={faFacebook} className="colz-icon" />
+                </a>
+                <a href="https://www.linkedin.com/in/ravindu-umayanga-1a7424204/">
+                  <FontAwesomeIcon icon={faLinkedin} className="colz-icon2"/>
+                </a>
+                <a href="https://github.com/RavinduISHA">
+                  <FontAwesomeIcon icon={faGithub} className="colz-icon2"/>
+                </a>
               </div>
-                <div className='profile-picture'>
-                  <div className='profile-picture-b'>
-                  </div>
-                </div>
-                
+            </div>
+
+          </div>
+            <div className='profile-picture'>
+              <div className='profile-picture-b'>
+              </div>
+            </div>
         </div>
         <div className='Profile-option'>
               

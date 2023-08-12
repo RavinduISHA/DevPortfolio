@@ -1,6 +1,12 @@
 import React from "react";
 import "./About.css";
 import aboutImg from '../Assets/Home/MyUpdate.png';
+import Icon1 from '../Assets/Home/reactIcon.png'
+import Icon2 from '../Assets/Home/sqlIcon.jpg'
+import Icon3 from '../Assets/Home/py.jpeg'
+import Icon4 from '../Assets/Home/cyber.png'
+import Icon5 from '../Assets/Home/web.png'
+
 function About() {
   //  Up To Top Btn
     window.addEventListener("scroll", function(){
@@ -19,12 +25,50 @@ function About() {
             <div className="about__meta">
               <p className="about__text p__color justify">
               I am self-motivated and enthusiastic person to work in any situation. I'm passionate about creating cutting-edge web applications that are both user-friendly and visually appealing. With a strong ability in front-end and back-end development. My skillset includes expertise in 𝐉𝐚𝐯𝐚𝐒𝐜𝐫𝐢𝐩𝐭, 𝐑𝐞𝐚𝐜𝐭.𝐣𝐬, 𝐍𝐨𝐝𝐞.𝐣𝐬, 𝐚𝐧𝐝 𝐏𝐲𝐭𝐡𝐨𝐧, as well as a deep understanding of various databases.
-              <br/><br/>
-              I am a problem solver by nature and enjoy working in a fast-paced, dynamic environment. I am always eager to learn new technologies and stay up-to-date with industry trends to bring the best solutions to clients.
-
-              I am now looking to take on new challenges and continue to grow as a developer.
-
+              <br/>
               </p>
+              <h2>Achievements</h2>
+                <div className="achievement__container">
+                  <div className="achievement">
+                    <a href="https://www.hackerrank.com/certificates/699bfb273d15">
+                      <img src={Icon1} alt='' className='achivement__icon' />
+                    </a>
+                    <p class="achievement__text a1__color">ReactJS(Basic)</p>
+                    <p class="achievement__text a__color">Hackerrank</p>
+                  </div>
+
+                  <div className="achievement">
+                    <a href="https://www.hackerrank.com/certificates/6bd3d48169c0">
+                      <img src={Icon2} alt='' className='achivement__icon' />
+                    </a>
+                    <p class="achievement__text a1__color">SQL(Basic)</p>
+                    <p class="achievement__text a__color">Hackerrank</p>
+                  </div>
+
+                  <div className="achievement">
+                    <a href="https://www.hackerrank.com/certificates/c8b300d469a9">
+                      <img src={Icon3} alt='' className='achivement__icon' />
+                    </a>
+                    <p class="achievement__text a1__color">Python(Basic)</p>
+                    <p class="achievement__text a__color">Hackerrank</p>
+                  </div>
+
+                  <div className="achievement">
+                    <a href="https://www.credly.com/badges/16d3bb86-b2ef-4914-b95f-2abb75b32471?source=linked_in_profile">
+                      <img src={Icon4} alt='' className='achivement__icon' />
+                    </a>
+                    <p class="achievement__text a1__color">Intro Cybersecurity</p>
+                    <p class="achievement__text a__color">Cisco</p>
+                  </div>
+
+                  <div className="achievement">
+                    <a href="https://drive.google.com/file/d/1sYJJpV3AUYLEcNM6kP2UWc68Pe2K8Ek7/view">
+                      <img src={Icon5} alt='' className='achivement__icon' />
+                    </a>
+                    <p class="achievement__text a1__color">Web design</p>
+                    <p class="achievement__text a__color">CODL-UOM</p>
+                  </div>
+                </div>
               <p className="about__text p__color">
                 
               </p>

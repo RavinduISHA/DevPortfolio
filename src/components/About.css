@@ -41,21 +41,64 @@ a.bottom__to__top{
 a.bottom__to__top.active{
     display: flex;
 }
+.achievement__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.achievement{
+    text-align: center;
+    margin-top: 10px;
+}
+.achivement__icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+achievement__text{
+    margin-top: 5px;
+    color: #f0f0f0;
+}
 /* RESPONSIVE */
 @media only screen and (max-width: 1024px){
     .p__color{
         font-size: 15px!important;
     }
     img.about__img {
-        height: 400px;
+        height: 250px;
+    }
+    img.achievement__icon {
+        width: 20px;
+        height: 20px; 
     }
 }
+
+@media screen and (max-width: 375px) {
+    img.achivement__icon {
+      width: 35px; 
+      height: 35px;
+    }
+    div.achievement__container{
+
+    }
+
+  }
+
 @media only screen and (max-width: 425px){
-button.about.btn.pointer {
-    text-transform: capitalize;
-    width: 165px;
-    height: 50px;
-    font-size: 13px;
-    transition: .4s ease;
-}
+    button.about.btn.pointer {
+        text-transform: capitalize;
+        width: 165px;
+        height: 50px;
+        font-size: 13px;
+        transition: .4s ease;
+    }
 }

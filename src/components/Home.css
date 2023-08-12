@@ -252,15 +252,16 @@ svg.bi.bi-justify.white.pointer {
 @media only screen and (max-width: 425px){
     h2.home__text.pz__10{
     font-size: 32px;
-}
-h3.sweet.pz__10 {
-    font-size: 40px;
-}
-h1.home__text {
-    font-size: 14px;
-}
-h4.home__text {
-    font-size: 45px;
+    }
+    h3.sweet.pz__10 {
+        font-size: 40px;
+    }
+    h1.home__text {
+        font-size: 14px;
+    }
+    h4.home__text {
+        font-size: 45px;
+    }
 }
 
 @media only screen and (max-width: 375px) {
@@ -289,7 +290,6 @@ h4.home__text {
     }
   }
 
-}
 @media only screen and (max-width: 1110px){
     .profile-picture{
         margin: 0 0px 0 20px;

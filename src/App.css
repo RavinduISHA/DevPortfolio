@@ -133,6 +133,18 @@ button.btn {
   margin-bottom: 15px;
   font-weight: bold;
 }
+.a1__color {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  font-family: Poppins,sans-serif;
+  /* font-weight: bold; */
+}
+.a__color {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-family: Poppins,sans-serif;
+  /* font-weight: bold; */
+}
 button.about.btn.pointer:hover {
   background: #fff;
   color: #000!important;
