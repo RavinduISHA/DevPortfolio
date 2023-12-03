@@ -41,8 +41,8 @@ function Service() {
                 <h1 className="service__text">Software Development</h1>
                 <p className="p service__text p__color">
                 Skills: 
-                HTML, CSS, JS, Bootstrap
-                ReactJs, VueJs, NodeJs,
+                HTML, CSS, JS, Bootstrap, Tailwind CSS ,
+                ReactJs, VueJs, NodeJs, Laravel,
                 python
                 </p>
                 <p className="p service__text p__color">
